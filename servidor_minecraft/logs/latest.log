@@ -1,0 +1,320 @@
+[01:07:24] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.14
+[01:07:24] [ForkJoinPool-1-worker-4/WARN]: Mod getittogetherdrops uses the version fabric-1.21-1.3.1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[01:07:24] [ForkJoinPool-1-worker-1/WARN]: The mod "tcdcommons" contains invalid entries in its mod json:
+- Unsupported root entry "" at line 27 column 4
+- Unsupported root entry "" at line 27 column 198
+- Unsupported root entry "" at line 29 column 4
+- Unsupported root entry "" at line 29 column 24
+[01:07:25] [main/INFO]: Loading 58 mods:
+	- almanac 1.5.0
+	- chunky 1.4.27
+	- cloth-config 17.0.144
+	   \-- cloth-basic-math 0.6.1
+	- fabric-api 0.119.3+1.21.4
+	   |-- fabric-api-base 0.4.54+b47eab6b04
+	   |-- fabric-api-lookup-api-v1 1.6.86+b1caf1e904
+	   |-- fabric-biome-api-v1 15.0.6+b1c29d8e04
+	   |-- fabric-block-api-v1 1.0.31+7feeb73304
+	   |-- fabric-block-view-api-v2 1.0.20+9c49cc8c04
+	   |-- fabric-blockrenderlayer-v1 2.0.8+7feeb73304
+	   |-- fabric-client-tags-api-v1 1.1.29+20ea1e2304
+	   |-- fabric-command-api-v1 1.2.62+f71b366f04
+	   |-- fabric-command-api-v2 2.2.41+e496eb1504
+	   |-- fabric-commands-v0 0.2.79+df3654b304
+	   |-- fabric-content-registries-v0 9.1.19+25d1a67604
+	   |-- fabric-convention-tags-v1 2.1.20+7f945d5b04
+	   |-- fabric-convention-tags-v2 2.14.1+aebda09404
+	   |-- fabric-crash-report-info-v1 0.3.6+7feeb73304
+	   |-- fabric-data-attachment-api-v1 1.6.2+e99da0f704
+	   |-- fabric-data-generation-api-v1 22.3.1+0f4e5f5504
+	   |-- fabric-dimensions-v1 4.0.10+7feeb73304
+	   |-- fabric-entity-events-v1 2.0.15+62245bef04
+	   |-- fabric-events-interaction-v0 4.0.4+a4eebcf004
+	   |-- fabric-game-rule-api-v1 1.0.63+7d48d43904
+	   |-- fabric-item-api-v1 11.3.0+ee91fa1f04
+	   |-- fabric-item-group-api-v1 4.2.2+fcb9601404
+	   |-- fabric-key-binding-api-v1 1.0.57+7d48d43904
+	   |-- fabric-keybindings-v0 0.2.55+df3654b304
+	   |-- fabric-lifecycle-events-v1 2.5.4+bf2a60eb04
+	   |-- fabric-loot-api-v2 3.0.38+3f89f5a504
+	   |-- fabric-loot-api-v3 1.0.26+203e6b2304
+	   |-- fabric-message-api-v1 6.0.26+238a33c004
+	   |-- fabric-model-loading-api-v1 4.3.0+ae23723504
+	   |-- fabric-networking-api-v1 4.4.0+db5e668204
+	   |-- fabric-object-builder-api-v1 18.0.14+38b0d59804
+	   |-- fabric-particles-v1 4.0.14+7feeb73304
+	   |-- fabric-recipe-api-v1 8.1.1+640e77ae04
+	   |-- fabric-registry-sync-v0 6.1.11+4a9c1ece04
+	   |-- fabric-renderer-api-v1 5.0.3+50f0feb204
+	   |-- fabric-renderer-indigo 2.0.3+50f0feb204
+	   |-- fabric-rendering-data-attachment-v1 0.3.58+73761d2e04
+	   |-- fabric-rendering-fluids-v1 3.1.19+7feeb73304
+	   |-- fabric-rendering-v1 10.2.1+0d31b09f04
+	   |-- fabric-resource-conditions-api-v1 5.0.13+203e6b2304
+	   |-- fabric-resource-loader-v0 3.1.1+360374ac04
+	   |-- fabric-screen-api-v1 2.0.38+7feeb73304
+	   |-- fabric-screen-handler-api-v1 1.3.118+7feeb73304
+	   |-- fabric-sound-api-v1 1.0.32+7feeb73304
+	   |-- fabric-tag-api-v1 1.0.7+7d48d43904
+	   |-- fabric-transfer-api-v1 5.4.9+efa825c904
+	   \-- fabric-transitive-access-wideners-v1 6.3.2+56e78b9b04
+	- fabricloader 0.16.14
+	   \-- mixinextras 0.4.1
+	- ferritecore 7.1.1
+	- getittogetherdrops fabric-1.21-1.3.1
+	- java 21
+	- krypton 0.2.8
+	   \-- com_velocitypowered_velocity-native 3.3.0-SNAPSHOT
+	- letmedespawn 1.4.4
+	- lithium 0.14.3+mc1.21.4
+	- minecraft 1.21.4
+	- mr_epicterrain 0.1.3
+	- resourcefulconfig 3.4.1
+	- structure_layout_optimizer 1.0.4
+	- tcdcommons 3.12.5+fabric-1.21.4
+	- xaerominimap 25.2.10
+	- xaeroworldmap 1.39.12
+[01:07:25] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/TheFriends/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[01:07:25] [main/INFO]: Compatibility level set to JAVA_21
+[01:07:25] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[01:07:25] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
+[01:07:25] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
+[01:07:25] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
+[01:07:25] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
+[01:07:25] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
+[01:07:25] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
+[01:07:25] [main/INFO]: Loaded configuration file for Lithium: 140 options available, 1 override(s) found
+[01:07:26] [main/INFO]: Force-enabling mixin 'compat.transfer_api.TransferApiHelperMixin' as rule 'mixin.compat.transfer_api' (added by mods [lithium]) enables it
+[01:07:27] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[01:07:34] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.0.x (Linux x86_64)
+[01:07:34] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[01:07:34] [main/INFO]: Initializing 'TCD Commons API' 3.12.5+fabric-1.21.4 as 'TCDCommonsServer'.
+[01:07:34] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[01:07:34] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[01:07:34] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:07:37] [main/INFO]: Loaded 1370 recipes
+[01:07:37] [main/INFO]: Loaded 1481 advancements
+[01:07:37] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.625 ms
+[01:07:37] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[01:07:37] [Server thread/INFO]: Loading properties
+[01:07:37] [Server thread/INFO]: Default game type: SURVIVAL
+[01:07:37] [Server thread/INFO]: Generating keypair
+[01:07:37] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:07:37] [Server thread/INFO]: Using epoll channel type
+[01:07:37] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:07:37] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:07:37] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:07:37] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:07:37] [Server thread/INFO]: Preparing level "world"
+[01:07:38] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:07:41] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[01:07:41] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[01:07:41] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[01:07:41] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[01:07:41] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[01:07:41] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[01:07:41] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[01:07:41] [Worker-Main-2/INFO]: Preparing spawn area: 8%
+[01:07:42] [Server thread/INFO]: Time elapsed: 3958 ms
+[01:07:42] [Server thread/INFO]: Done (4.379s)! For help, type "help"
+[01:07:42] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[01:07:42] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[01:07:51] [Server thread/INFO]: Slendx0203[/127.168.190.78:54335] logged in with entity id 5 at (-167.36620943967145, -35.0, -717.1918721938731)
+[01:07:51] [Server thread/INFO]: Slendx0203 joined the game
+[01:07:51] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
+[01:07:53] [Server thread/INFO]: odneid_[/127.56.20.18:36041] logged in with entity id 175 at (-1996.820265440902, 69.0, -363.866506070039)
+[01:07:53] [Server thread/INFO]: odneid_ joined the game
+[01:08:02] [Server thread/INFO]: [Not Secure] <Slendx0203> shit
+[01:08:09] [Server thread/INFO]: [Not Secure] <Slendx0203> se devolvio un poco en el tiempo
+[01:08:12] [Server thread/INFO]: [Not Secure] <odneid_> si
+[01:08:21] [Server thread/INFO]: [Not Secure] <odneid_> pero solo nosotros
+[01:08:25] [Server thread/INFO]: [Not Secure] <Slendx0203> a la proxima arreglo ese error
+[01:08:48] [Server thread/INFO]: [Not Secure] <Slendx0203> es porque toma a la pagina y como que la cierra para ahorrar recursos
+[01:08:58] [Server thread/INFO]: [Slendx0203: Gave 1 [Torch] to Slendx0203]
+[01:09:01] [Server thread/INFO]: [Slendx0203: Gave 60 [Torch] to Slendx0203]
+[01:09:27] [Server thread/INFO]: [Not Secure] <odneid_> no puede abrir el server desde el celular
+[01:09:40] [Server thread/INFO]: [Not Secure] <Slendx0203> esque ando en llamada con mi novia jaja
+[01:09:45] [Server thread/INFO]: [Not Secure] <odneid_> a
+[01:10:17] [Server thread/INFO]: [Not Secure] <odneid_> y que paso con Dylan
+[01:10:22] [Server thread/INFO]: [Not Secure] <Slendx0203> yo que voy a saber
+[01:10:30] [Server thread/INFO]: [Not Secure] <Slendx0203> tambien no entro mi amigo ese
+[01:11:58] [Server thread/INFO]: [Not Secure] <odneid_> pere ya vengo
+[01:12:01] [Server thread/INFO]: [Not Secure] <odneid_> no me demoro
+[01:12:01] [Server thread/INFO]: [Not Secure] <Slendx0203> ok
+[01:12:02] [Server thread/INFO]: odneid_ lost connection: Disconnected
+[01:12:02] [Server thread/INFO]: odneid_ left the game
+[01:13:44] [Server thread/INFO]: [Slendx0203: Gave 60 [Torch] to Slendx0203]
+[01:15:17] [Server thread/INFO]: Slendx0203 was blown up by Creeper
+[01:15:41] [Server thread/INFO]: [Not Secure] <Slendx0203> -260 -40 -776
+[01:23:12] [Server thread/INFO]: [Slendx0203: Gave 60 [Torch] to Slendx0203]
+[01:27:07] [Server thread/INFO]: odneid_[/127.56.20.18:43167] logged in with entity id 7529 at (-2017.300000011921, 92.0, -273.30000001192093)
+[01:27:07] [Server thread/INFO]: odneid_ joined the game
+[01:27:17] [Server thread/INFO]: [Not Secure] <odneid_> ya volvi
+[01:27:22] [Server thread/INFO]: [Not Secure] <Slendx0203> no encerio?
+[01:28:05] [Server thread/INFO]: Slendx0203 has made the advancement [Cover Me with Diamonds]
+[01:29:11] [Server thread/INFO]: gonzalez2110[/127.20.49.137:55469] logged in with entity id 8937 at (-43.5, 149.0, -721.5)
+[01:29:11] [Server thread/INFO]: gonzalez2110 joined the game
+[01:29:18] [Server thread/INFO]: [Not Secure] <Slendx0203> media vida despues
+[01:29:19] [Server thread/INFO]: [Not Secure] <odneid_> ese mombre
+[01:29:49] [Server thread/INFO]: [Not Secure] <gonzalez2110> lo logre por fin :(
+[01:29:57] [Server thread/INFO]: [Not Secure] <Slendx0203> .-.
+[01:31:12] [Server thread/INFO]: [Slendx0203: Gave 1 [Iron Axe] to Slendx0203]
+[01:31:41] [Server thread/INFO]: [Not Secure] <Slendx0203> llevo media hora iluminando esta pta cueva
+[01:33:32] [Server thread/INFO]: [Not Secure] <Slendx0203> voy a comer
+[01:33:36] [Server thread/INFO]: Slendx0203 lost connection: Disconnected
+[01:33:36] [Server thread/INFO]: Slendx0203 left the game
+[01:39:11] [Server thread/INFO]: odneid_ has made the advancement [Not Today, Thank You]
+[01:41:41] [Server thread/INFO]: Slendx0203[/127.168.190.78:44871] logged in with entity id 15253 at (-191.51456393408841, -45.0, -771.9924431584742)
+[01:41:41] [Server thread/INFO]: Slendx0203 joined the game
+[01:42:40] [Server thread/INFO]: [Not Secure] <Slendx0203> gonzales esta en una cueva?
+[01:42:52] [Server thread/INFO]: [Not Secure] <Slendx0203> veo por aqui a alguien cerca
+[01:46:17] [Server thread/INFO]: [Not Secure] <Slendx0203> oeee
+[01:46:22] [Server thread/INFO]: [Not Secure] <Slendx0203> nadie habla
+[01:46:32] [Server thread/INFO]: [Not Secure] <odneid_> si
+[01:48:03] [Server thread/INFO]: gonzalez2110 has made the advancement [Stone Age]
+[01:48:41] [Server thread/INFO]: gonzalez2110 has made the advancement [Getting an Upgrade]
+[01:48:48] [Server thread/INFO]: Slendx0203 has made the advancement [Hot Stuff]
+[01:49:22] [Server thread/INFO]: Slendx0203 has made the advancement [Ice Bucket Challenge]
+[01:51:00] [Server thread/INFO]: [Slendx0203: Gave 1 [Book] to Slendx0203]
+[01:51:34] [Server thread/INFO]: odneid_ has made the advancement [Suit Up]
+[01:51:57] [Server thread/INFO]: [Not Secure] <Slendx0203> quien esta sobre mi
+[01:52:01] [Server thread/INFO]: [Not Secure] <Slendx0203> veo a alguien en el mapa
+[01:52:03] [Server thread/INFO]: [Not Secure] <odneid_> yo no
+[01:52:08] [Server thread/INFO]: [Not Secure] <odneid_> estoy re lejos
+[01:52:08] [Server thread/INFO]: [Not Secure] <Slendx0203> debe ser gonzalez
+[01:52:17] [Server thread/INFO]: [Not Secure] <Slendx0203> pero creo que esta en la superficie
+[01:52:20] [Server thread/INFO]: [Not Secure] <odneid_> metale un susto
+[01:52:24] [Server thread/INFO]: [Not Secure] <gonzalez2110> pues talvez
+[01:52:25] [Server thread/INFO]: [Not Secure] <Slendx0203> si hace un pa abajo lelga aqui
+[01:52:31] [Server thread/INFO]: [Not Secure] <Slendx0203> pero se mata jajaj
+[01:53:21] [Server thread/INFO]: odneid_ has made the advancement [Cover Me with Diamonds]
+[01:54:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-2073, y=107, z=-274} class_2338{x=-2075, y=106, z=-274}
+[01:55:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-2073, y=107, z=-274} class_2338{x=-1998, y=87, z=-288}
+[01:57:20] [Server thread/INFO]: [Slendx0203: Gave 60 [Torch] to Slendx0203]
+[01:59:14] [Server thread/INFO]: [Slendx0203: Gave 60 [Torch] to Slendx0203]
+[02:04:02] [Server thread/INFO]: [Slendx0203: Gave 60 [Torch] to Slendx0203]
+[02:08:40] [Server thread/INFO]: [Not Secure] <Slendx0203> gente
+[02:08:42] [Server thread/INFO]: [Not Secure] <Slendx0203> que hacen
+[02:08:51] [Server thread/INFO]: [Not Secure] <odneid_> aplanando
+[02:08:58] [Server thread/INFO]: [Not Secure] <gonzalez2110> configurando
+[02:09:05] [Server thread/INFO]: [Not Secure] <Slendx0203> configurando que
+[02:09:09] [Server thread/INFO]: [Not Secure] <Slendx0203> le va mal o que?
+[02:12:42] [Server thread/INFO]: [Slendx0203: Gave 60 [Torch] to Slendx0203]
+[02:13:02] [Server thread/INFO]: [Not Secure] <gonzalez2110> joven garza vea el wasa
+[02:13:10] [Server thread/INFO]: [Not Secure] <Slendx0203> espere
+[02:13:17] [Server thread/INFO]: [Not Secure] <Slendx0203> que me van a matar
+[02:15:20] [Server thread/INFO]: [Not Secure] <Slendx0203> intente con la I
+[02:15:27] [Server thread/INFO]: [Not Secure] <Slendx0203> o con la O y le da desactivar
+[02:15:32] [Server thread/INFO]: [Not Secure] <gonzalez2110> si
+[02:15:35] [Server thread/INFO]: [Not Secure] <gonzalez2110> gracias
+[02:20:21] [Server thread/INFO]: gonzalez2110 has made the advancement [Acquire Hardware]
+[02:21:05] [Server thread/INFO]: [Not Secure] <gonzalez2110> jueputa susto
+[02:21:23] [Server thread/INFO]: [Not Secure] <Slendx0203> pq tan noob bro
+[02:21:41] [Server thread/INFO]: [Not Secure] <gonzalez2110> acabe de jugar apenas
+[02:21:43] [Server thread/INFO]: [Not Secure] <Slendx0203> jajaj
+[02:21:53] [Server thread/INFO]: [Not Secure] <Slendx0203> que tal el mapa?
+[02:21:56] [Server thread/INFO]: [Not Secure] <gonzalez2110> medio año quitando mil cosas para que no explote mi compu
+[02:22:04] [Server thread/INFO]: [Not Secure] <Slendx0203> jaja
+[02:22:11] [Server thread/INFO]: [Not Secure] <Slendx0203> le metio los mods de optimización?
+[02:22:37] [Server thread/INFO]: [Not Secure] <gonzalez2110> bien pero pregunta hay mods raro como dragones o algo raro o son mods de ayuda todos
+[02:22:49] [Server thread/INFO]: [Not Secure] <Slendx0203> que
+[02:22:50] [Server thread/INFO]: [Not Secure] <Slendx0203> .-.
+[02:22:59] [Server thread/INFO]: [Not Secure] <gonzalez2110> que mods ha
+[02:23:04] [Server thread/INFO]: [Not Secure] <Slendx0203> de optimización
+[02:23:07] [Server thread/INFO]: [Not Secure] <Slendx0203> de mochilas
+[02:23:07] [Server thread/INFO]: [Not Secure] <odneid_> no si metemos dragones les explota los pcs
+[02:23:14] [Server thread/INFO]: [Not Secure] <Slendx0203> literal
+[02:23:24] [Server thread/INFO]: [Not Secure] <Slendx0203> voy a 40 fps
+[02:23:34] [Server thread/INFO]: [Not Secure] <Slendx0203> metemos la tormenta whiter? jajaj
+[02:23:39] [Server thread/INFO]: gonzalez2110 has made the advancement [Suit Up]
+[02:24:03] [Server thread/INFO]: gonzalez2110 has made the advancement [Isn't It Iron Pick]
+[02:24:08] [Server thread/INFO]: [Slendx0203: Gave 10 [Leather] to Slendx0203]
+[02:24:48] [Server thread/INFO]: [Not Secure] <Slendx0203> mrka andan bugueados las mochilas
+[02:25:41] [Server thread/INFO]: [Not Secure] <odneid_> no
+[02:25:52] [Server thread/INFO]: [Not Secure] <Slendx0203> usted ya crafteo alguna?
+[02:25:52] [Server thread/INFO]: gonzalez2110 has made the advancement [Monster Hunter]
+[02:25:55] [Server thread/INFO]: [Not Secure] <odneid_> yo si queria mas inventario
+[02:26:03] [Server thread/INFO]: [Not Secure] <Slendx0203> mañana reparo eso
+[02:26:13] [Server thread/INFO]: [Not Secure] <Slendx0203> mañana entro al server tempranito
+[02:26:30] [Server thread/INFO]: [Not Secure] <Slendx0203> si quieren les envio una invitación a un server de discord
+[02:26:40] [Server thread/INFO]: [Not Secure] <Slendx0203> hay un bot que avisa cuando enciende el server
+[02:26:48] [Server thread/INFO]: [Not Secure] <odneid_> si dele
+[02:29:30] [Server thread/INFO]: gonzalez2110 has made the advancement [Not Today, Thank You]
+[02:31:16] [Server thread/INFO]: [Not Secure] <Slendx0203> bueno gente
+[02:31:19] [Server thread/INFO]: [Not Secure] <Slendx0203> hasta mañana
+[02:31:23] [Server thread/INFO]: [Not Secure] <Slendx0203> si se apaga el server
+[02:31:25] [Server thread/INFO]: [Not Secure] <Slendx0203> yo no se
+[02:31:45] [Server thread/INFO]: [Not Secure] <odneid_> deje el pc prendido
+[02:31:48] [Server thread/INFO]: [Not Secure] <Slendx0203> jajaj
+[02:31:49] [Server thread/INFO]: [Not Secure] <Slendx0203> no
+[02:31:57] [Server thread/INFO]: [Not Secure] <gonzalez2110> mamahuevo
+[02:31:59] [Server thread/INFO]: [Not Secure] <Slendx0203> no soy como vos que te quedas ocho años en un juego farmeando
+[02:32:00] [Server thread/INFO]: [Not Secure] <odneid_> -.-
+[02:33:05] [Server thread/INFO]: [Not Secure] <Slendx0203> bueno entonces ahorita lo apago
+[02:33:11] [Server thread/INFO]: [Not Secure] <Slendx0203> si se apaga solo ps vayanse a dormir
+[02:33:16] [Server thread/INFO]: [Not Secure] <odneid_> ahorita en 2 horas
+[02:33:20] [Server thread/INFO]: [Not Secure] <Slendx0203> ush
+[02:33:26] [Server thread/INFO]: [Not Secure] <Slendx0203> hijos de perra
+[02:33:27] [Server thread/INFO]: [Not Secure] <Slendx0203> viciados
+[02:33:30] [Server thread/INFO]: Slendx0203 lost connection: Disconnected
+[02:33:30] [Server thread/INFO]: Slendx0203 left the game
+[02:33:41] [Server thread/INFO]: [Not Secure] <odneid_> bueno dylan va a hacer aldeanos
+[02:33:50] [Server thread/INFO]: [Not Secure] <gonzalez2110> ust
+[02:33:57] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[02:33:57] [Server thread/INFO]: ssay me dejan algunos<--[HERE]
+[02:34:00] [Server thread/INFO]: [Not Secure] <gonzalez2110> ed ya tiene?
+[02:34:04] [Server thread/INFO]: [Not Secure] <odneid_> no
+[02:34:08] [Server thread/INFO]: [Not Secure] [Server] say me dejan algunossay me dejan algunos
+[02:34:13] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[02:34:13] [Server thread/INFO]: hpta<--[HERE]
+[02:34:15] [Server thread/INFO]: [Not Secure] [Server] hpta
+[02:34:20] [Server thread/INFO]: [Not Secure] <gonzalez2110> buenaaa
+[02:34:49] [Server thread/INFO]: [Not Secure] <gonzalez2110> estrda entonces que estaba aplanando?
+[02:34:58] [Server thread/INFO]: [Not Secure] <odneid_> una zona para mi casa
+[02:35:04] [Server thread/INFO]: [Not Secure] <gonzalez2110> xd
+[02:35:40] [Server thread/INFO]: [Not Secure] <odneid_> mire hagamos algo
+[02:36:00] [Server thread/INFO]: [Not Secure] <odneid_> o le doy madera para los aldeanos y usted los sube de nivel
+[02:36:10] [Server thread/INFO]: [Not Secure] <odneid_> "yo"
+[02:36:41] [Server thread/INFO]: [Not Secure] <gonzalez2110> si pero ontan los aldeanos
+[02:36:47] [Server thread/INFO]: [Not Secure] <odneid_> eeee
+[02:36:53] [Server thread/INFO]: [Not Secure] <odneid_> mañana busco
+[02:37:01] [Server thread/INFO]: [Not Secure] <gonzalez2110> voy buscando yo desde ya
+[02:37:08] [Server thread/INFO]: [Not Secure] <odneid_> si dele
+[02:37:15] [Server thread/INFO]: [Not Secure] <odneid_> tiene cama
+[02:37:22] [Server thread/INFO]: [Not Secure] <gonzalez2110> si
+[02:37:27] [Server thread/INFO]: [Not Secure] <odneid_> puede dormir
+[02:37:35] [Server thread/INFO]: gonzalez2110 has made the advancement [Sweet Dreams]
+[02:37:38] [Server thread/INFO]: odneid_ lost connection: Disconnected
+[02:37:38] [Server thread/INFO]: odneid_ left the game
+[02:38:07] [Server thread/INFO]: odneid_[/127.56.20.18:59501] logged in with entity id 41856 at (-2004.0925649073965, 85.0, -309.6907171314471)
+[02:38:07] [Server thread/INFO]: odneid_ joined the game
+[02:38:19] [Server thread/INFO]: [Not Secure] <odneid_> gracias
+[02:38:28] [Server thread/INFO]: gonzalez2110 has made the advancement [Ice Bucket Challenge]
+[02:39:20] [Server thread/INFO]: [Not Secure] <gonzalez2110> ya los encontre xd
+[02:39:22] [Server thread/INFO]: [Not Secure] <odneid_> a
+[02:39:28] [Server thread/INFO]: [Not Secure] <odneid_> pase cords
+[02:39:32] [Server thread/INFO]: [Not Secure] <odneid_> y le doy la madera
+[02:41:21] [Server thread/INFO]: [Not Secure] <odneid_> no esta tan lejos
+[02:46:01] [Server thread/INFO]: [Not Secure] <odneid_> hola
+[02:46:28] [Server thread/INFO]: [Not Secure] <odneid_> mire mi inversion inicial
+[02:46:42] [Server thread/INFO]: [Not Secure] <gonzalez2110> wow
+[02:47:04] [Server thread/INFO]: [Not Secure] <odneid_> mas tarde le doy mas
+[02:47:12] [Server thread/INFO]: [Not Secure] <odneid_> me le voy a robar una cama
+[02:47:17] [Server thread/INFO]: [Not Secure] <odneid_> porque no tengo
+[02:47:24] [Server thread/INFO]: [Not Secure] <gonzalez2110> ya le di
+[02:47:35] [Server thread/INFO]: [Not Secure] <odneid_> muchas gracias
+[02:47:36] [Server thread/INFO]: [Not Secure] <gonzalez2110> xd
+[02:47:40] [Server thread/INFO]: [Not Secure] <odneid_> me voy
+[02:49:03] [Server thread/INFO]: [Not Secure] <odneid_> ay mod para cambiar los tradeos
+[02:49:34] [Server thread/INFO]: Villager class_1646['Nitwit'/4586, l='ServerLevel[world]', x=-559.72, y=72.00, z=-718.54] died, message: 'Nitwit was slain by gonzalez2110'
+[02:50:17] [Server thread/INFO]: odneid_ has made the advancement [Ice Bucket Challenge]
+[02:58:55] [Server thread/INFO]: [Not Secure] <odneid_> zzz
+[03:06:46] [Server thread/INFO]: Villager class_1646['Villager'/4507, l='ServerLevel[world]', x=-595.33, y=72.00, z=-747.30] died, message: 'Villager froze to death'
+[03:07:44] [Server thread/INFO]: [Not Secure] <odneid_> digame si necesita mas madera
+[03:08:05] [Server thread/INFO]: [Not Secure] <gonzalez2110> pues para despues si de mientras me estoy armando
+[03:10:22] [Server thread/INFO]: [Not Secure] <gonzalez2110> sabe que es mejor que la mader hacer una granja de hierro para mejorar mejor los aldeanos
+[03:10:48] [Server thread/INFO]: [Not Secure] <odneid_> pero porque no mejor los mejora con palos
+[03:13:39] [Server thread/INFO]: gonzalez2110 has made the advancement [Diamonds!]
+[03:20:23] [Server thread/INFO]: [Not Secure] <odneid_> porfavor duerma
+[03:20:47] [Server thread/INFO]: [Not Secure] <odneid_> Dylan?
+[03:23:08] [Server thread/INFO]: [Not Secure] <odneid_> me quede sin comida
